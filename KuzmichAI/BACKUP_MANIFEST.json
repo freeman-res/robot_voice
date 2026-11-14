@@ -1,0 +1,299 @@
+{
+  "source_archive": "KuzmichAI_v2_EGOR_ZOLOTOY_20260910_123307.zip",
+  "source_sha256": "13866fee0af4b2a3a9b6b715c92342cf9a8255b746aafc566b02bf69b3e072a5",
+  "prepared_date": "2026-10-07",
+  "source_files_unchanged": true,
+  "runtime_tested": false,
+  "excluded": [
+    "piper/ (third-party binary runtime)",
+    "model weights and environments absent in source archive",
+    "audio and runtime caches absent in source archive"
+  ],
+  "files": [
+    {
+      "path": "cache_manager.py",
+      "bytes": 9663,
+      "sha256": "75ac9ddc38f249c474303a41e5f524ff9c0c1ffef63853dff86359ef7e359a6b"
+    },
+    {
+      "path": "audio_io.py",
+      "bytes": 44826,
+      "sha256": "32d1d27aac3da80138ccd42f981a343d2a61278917ec601063a2746c61c38775"
+    },
+    {
+      "path": "phrases.txt",
+      "bytes": 16732,
+      "sha256": "e0707df40ddc36ac2d619c0171517a8e7326e8445f2781aab5151bba7ae7f7f4"
+    },
+    {
+      "path": "analyze_for_tts.py",
+      "bytes": 2932,
+      "sha256": "405d8c2bba609d087c45f84a68d5c0520c2d2f11bd84872c04d9442ef503af01"
+    },
+    {
+      "path": "validate_runtime.py",
+      "bytes": 6976,
+      "sha256": "fd02bb2bfa0c076f39d28177700cff5e22ff0551fb0f29e551451cce10ac2cfa"
+    },
+    {
+      "path": "latest_silero_models.yml",
+      "bytes": 34798,
+      "sha256": "64ccc436c72fd8c538e1a37de00301cc164a82c3d8ef0356532fe4c662ed1aa7"
+    },
+    {
+      "path": "build_kb_cache.py",
+      "bytes": 3218,
+      "sha256": "9ef8c3941308b1489b89d5c38484fa54f01440ceac7b445177e8456a92499fe4"
+    },
+    {
+      "path": "llm_engine.py",
+      "bytes": 32318,
+      "sha256": "e322405e92a104894ff4f1af7e4597d1f77e82e7ef8972dcf74a082b24a7a0f2"
+    },
+    {
+      "path": "main.py",
+      "bytes": 66523,
+      "sha256": "338260189e7d78b83e44ee197b94f03c2c67e20eb2e6250ae11181caf4329a69"
+    },
+    {
+      "path": "cache_builder.py",
+      "bytes": 7673,
+      "sha256": "17b1842ba32f88b355451b85327d747650396334422e784276da519986c426b6"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 147,
+      "sha256": "85de41c037fa18c42ffda3f0371ebf9b4d951286c4a7a01342f005ea8c07b7d6"
+    },
+    {
+      "path": "download_piper_models.sh",
+      "bytes": 1542,
+      "sha256": "93b0382e156d643b8c1e3e38c78c5c09416fa60349b4366bc6a54925a0863f45"
+    },
+    {
+      "path": "semantic_cache.py",
+      "bytes": 27940,
+      "sha256": "98a48e6998c87987c271d0a3d0a2af3def1853994fbf9652e321d469cf4efd23"
+    },
+    {
+      "path": "clear_brain.sh",
+      "bytes": 78,
+      "sha256": "cd9852667ad9f592c5bdc541628718efe028ed62aed8d1ad745173551c49e8b1"
+    },
+    {
+      "path": "kb_index.faiss",
+      "bytes": 1270802,
+      "sha256": "892f35750d417d4e9c0b81422087d9c3028f56bb16c5abb10a6ae2b8751b8623"
+    },
+    {
+      "path": "stt_engine.py",
+      "bytes": 16826,
+      "sha256": "2edaf4b7b809cbe9cef041caab55f415326f1885fd6278f2c029a33f4c88347c"
+    },
+    {
+      "path": "setup.sh",
+      "bytes": 3939,
+      "sha256": "b9cedbdc2d03cd58f3fc4155bd53e8b45817329b108e2bf0fb11603607dac843"
+    },
+    {
+      "path": "tts_engine.py",
+      "bytes": 28715,
+      "sha256": "459aa4bb72db8513994d38314903f7c0977b4ea3d86fda6e4910b28898ccb89b"
+    },
+    {
+      "path": "kb_dump.json",
+      "bytes": 574682,
+      "sha256": "286ec1fce1069298822a22d59cbdbbfea1bd1d2df023c67fa12e54345e904749"
+    },
+    {
+      "path": "sitecustomize.py",
+      "bytes": 708,
+      "sha256": "77a02c8451f0de571aad7a724cdc514349f55b1327597486abf322c3683cdd88"
+    },
+    {
+      "path": "start.sh",
+      "bytes": 10599,
+      "sha256": "2ad1e4edcab42314f505c53e786989d76caded23ae20aaf672025d3e5dce5ccd"
+    },
+    {
+      "path": "g1_greeting_gestures.py",
+      "bytes": 2912,
+      "sha256": "f4e0ea4c8139387215ddaf1b06e42d953f6f535b0cf270812f5b95924c648634"
+    },
+    {
+      "path": "stop.sh",
+      "bytes": 2643,
+      "sha256": "5e2b164386500bb9e10fe07d714c165fc39975270b32184208148e20d785dae3"
+    },
+    {
+      "path": "kb_mapping.pkl",
+      "bytes": 296423,
+      "sha256": "87a30819bec0b0ecac580cffda75cb97334752f20b720399debadda95b2ca5d7"
+    },
+    {
+      "path": "g1_arm_preset_actions/g1_pose_tuner.py",
+      "bytes": 27343,
+      "sha256": "9300993fa3bda3248f0cb62acbdc35bad240e7e070baa9fd78ec538f372f5c03"
+    },
+    {
+      "path": "g1_arm_preset_actions/run_pose_tuner_fixed_dds.sh",
+      "bytes": 336,
+      "sha256": "67e1bdef33e5b1d3ec6daa4c58487b05cdc356c67d650ff414941153c9a621ff"
+    },
+    {
+      "path": "g1_arm_preset_actions/g1_preset_actions_test.py",
+      "bytes": 8991,
+      "sha256": "2e20fd4d09dff21457799054d5886a6431e47dc62466a82df3a17cb86487029d"
+    },
+    {
+      "path": "g1_arm_preset_actions/story_1.sh",
+      "bytes": 1772,
+      "sha256": "e289c10998a467c35ac64cd129b53e658e2f77d2e5144bad6c4f2321e7a8de41"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/faceprepare.json",
+      "bytes": 1257,
+      "sha256": "be3451792ba309f0db4443fad0f087fe2617c9f881497c123c9396297aee6b91"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/shakehands_1.json",
+      "bytes": 1265,
+      "sha256": "d814ed7a37e094a95fd1a73d35ace426ae5a9d6179517d89d4e9b882243bdbb7"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/heart_start.json",
+      "bytes": 1254,
+      "sha256": "438fdbb81b889e1027959d60e0bbd17e929ed804a0f4aae45d49c2f1d27663a2"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/kiss_2.json",
+      "bytes": 1257,
+      "sha256": "ecdc575810526c92bf83179c4ac7341bba213b501f53cc92657d011677c712bd"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/mouthkeeper_2.json",
+      "bytes": 1266,
+      "sha256": "104a65da47647ecb7ac1eaf4877ba1de8e0e82a22eaa67a51d2b48e249fec85f"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/mouthkeeper.json",
+      "bytes": 1259,
+      "sha256": "c2d0f87fe0c636b2ce8eec7da25fe6931b56045750aa47c02744a8d2fe242739"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/crying_2_down.json",
+      "bytes": 1271,
+      "sha256": "a177d8d85f24322990151a72e40188b3249f0d44183fb1caf5e5dfc6f283b861"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/hart_part1.json",
+      "bytes": 1253,
+      "sha256": "3af7c05afbd254578669de2df4852e75c479b0440e372c0f8b7a962037edbee7"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/home.json",
+      "bytes": 1256,
+      "sha256": "7e72ad55a71031f09e2748abb2f1de6e63d88ce07c9c87bfa2f757b9031e2572"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/chest.json",
+      "bytes": 1251,
+      "sha256": "d28ca6315b91645c4f857bc96c6ec357dfc21d41f5342995a8c38f51817dc5c5"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/67_1.json",
+      "bytes": 1263,
+      "sha256": "9729bc13fbb5a35ec44530e4155155cff6d5cd46a71e17b6a7e801c5ff848c94"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/facepalm.json",
+      "bytes": 1258,
+      "sha256": "01fc72065f174a35770a93b83abc25f8a94e3bd85151071cc6df9e285d7e9d3c"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/shakehands_2.json",
+      "bytes": 1266,
+      "sha256": "f2752175237839a5789ede6fc72389dfdd86c2f4d977031df14b9905789035f7"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/dasha_koza_1.json",
+      "bytes": 1264,
+      "sha256": "9d0b6a1ecf8236decdaf033b1c8fcb70137d368b9e3ba837c4fcadeaa5808026"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/67_2.json",
+      "bytes": 1263,
+      "sha256": "b875d0f37b0348b7992350f05ee9c142d3659890fe156954b33f256de20e7277"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/dasha_koza_2.json",
+      "bytes": 1262,
+      "sha256": "3b1e1e5fcce3486e030bc8bf2e04da5b8ceb5e381e65068cbb51e3fd1de64d9c"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/kiss_1.json",
+      "bytes": 1255,
+      "sha256": "e60f8159eefa9da18e6e8f88735ca86b3391a5c13012c47abf226491c3e2ca94"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/crying.json",
+      "bytes": 1257,
+      "sha256": "15fbc19bfca6f47cac8a2b3d32bcff0402d157e58c9c98abfb7d1876e03d6ca4"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/home1.json",
+      "bytes": 1263,
+      "sha256": "f2d44f96f70e4b69d6fe056d73ff48143de911d195686381ede0d52e58652b68"
+    },
+    {
+      "path": "g1_arm_preset_actions/poses/heart_part2.json",
+      "bytes": 1256,
+      "sha256": "f86d53ecfd8d2a13cf16274b892a316af08ae42cfdee57610b11789991817523"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/sixty_seven.json",
+      "bytes": 1338,
+      "sha256": "7842a8dd1482751f3b7fbb251976935e3efe6cf62f1cf8ae3d6764b093d98569"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/mouthkeeper.json",
+      "bytes": 520,
+      "sha256": "9149881d14bd22785c354c0369f57106d1f045144fa0c6a8c334278eea4d0a56"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/dasha_koza.json",
+      "bytes": 1408,
+      "sha256": "4b346b4a996f3c583092ac3e089d048357738f91fe0fffc086fa4d7a791ca4ed"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/shakehands.json",
+      "bytes": 788,
+      "sha256": "e073fdbad4b158bce1445f21bb936996b90998d1403c6742b5acd9136904ca47"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/facepalm.json",
+      "bytes": 512,
+      "sha256": "6ab6279e0e43c38801f7212bee8d8fb617cbc988c51d8ea4671584bbc8624fd6"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/heart.json",
+      "bytes": 530,
+      "sha256": "71bb52f13de7efee44d31eaf2fb1776d936187e39307cb1ba84a5cb8d651a6b7"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/face_chest.json",
+      "bytes": 511,
+      "sha256": "d568fda8461e1489feb2361a14d46d76c5c7288175a7da8b7ac2bf1181182e39"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/kiss.json",
+      "bytes": 501,
+      "sha256": "501b769c16e0f24810448c7b5a9e0b670d8183b025f252be7bf004195e93a928"
+    },
+    {
+      "path": "g1_arm_preset_actions/motions/crying.json",
+      "bytes": 1246,
+      "sha256": "040ffa6859d5eb5471892c9de84ae51ea1b66c1c6c0527277018c5785333ec26"
+    }
+  ]
+}

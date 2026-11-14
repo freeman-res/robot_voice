@@ -1,0 +1,42 @@
+# Local environments and generated files
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Credentials and machine-specific configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Model weights and bundled third-party runtimes
+models/
+model/
+piper/
+*.gguf
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Audio and conversation caches; keep the knowledge base (kb_*)
+*.wav
+*.mp3
+cache_audio/
+cache_analyz_audio/
+kb_audio/
+semantic_cache_mapping.pkl
+semantic_cache_index.faiss
+
+# Backup archives
+*.zip
+*.tar.gz
